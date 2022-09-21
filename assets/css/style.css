@@ -1,0 +1,19 @@
+@import url(./header);
+@import url(./sidebar);
+@import url(./content);
+@import url(./footer);
+@import url(./media);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial,sans-serif;
+}
+
+:root {
+    --main-orange: rgb(242, 205, 70);
+    --main-gray: rgb(204, 204, 204);
+    --blue-active: rgb(39, 147, 248);
+}
+
+

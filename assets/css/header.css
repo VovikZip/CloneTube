@@ -1,0 +1,118 @@
+header {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.72);
+    background-color: #fff;
+    z-index: 1;
+}
+
+.header_item {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 32%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.header_item__left {
+    color: var(--main-orange);
+}
+
+.header_item__left img:hover, .header_item__left h1:hover {cursor: pointer;}
+
+.header_item__left img {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 0.7rem;  
+}
+
+.header_item__center {
+    align-items: center;
+}
+
+.header_item__center form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.header_input {
+    width: 70%;
+    height: 2rem;
+    border: 0px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 7px 0 0 7px;
+    padding-left: 0.6rem;
+}
+
+.header_input:focus {
+    outline: 0;
+    border: 1px solid rgb(3, 46, 185);
+
+}
+
+.header_search {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    border: 0px;
+    border-radius: 0 7px 7px 0;
+}
+
+.fa-microphone, .fa-bell {
+    color: var(--main-gray);
+    font-size: 1.5rem;
+}
+
+.fa-microphone:hover, .fa-bell:hover {
+    color: #636060;
+}
+
+.header_item__right{
+    justify-content: right;
+}
+
+.header_dropbutt {
+    background-color: var(--main-orange);
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1.9rem;
+}
+
+.header_drop {
+    position: relative;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.header_dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+    min-width: 10rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.header_dropdown-content a {
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+.header_drop-red{color:rgb(230, 20, 20);}
+
+.header_drop-black{color:rgb(0, 0, 0);}
+
+.header_drop:hover .header_dropdown-content {display: block;}
+
+.header_dropdown-content a:hover {background-color: #ddd;}
+
+.header_drop:hover .header_dropbutt {background-color: var(--main-gray);}

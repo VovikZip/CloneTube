@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px) {
+
+    .sidebar {
+        width: 5rem;
+
+    }
+
+    .sidebar_footer,
+    .sidebar_right,
+    .sidebar_name {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1775px) {
+    .text-bottom {font-size: 0.6rem;}
+}
